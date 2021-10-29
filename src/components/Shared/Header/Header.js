@@ -12,12 +12,10 @@ const Header = () => {
         <div className="container-fluid">
           <img
             className="ms-xl-5"
-            src="https://i.ibb.co/DfXRRy3/pngwing-com.png"
+            src="https://i.ibb.co/xFcq3Pp/Pngtree-an-airplane-airport-pilot-flight-3823863-1.png"
             alt=""
           />
-          <span className="ms-xl-3 fs-4 fw-bold text-white">
-            Fitness Gym Center
-          </span>
+          <span className="ms-xl-3 fs-4 fw-bold text-white">Travel Agency</span>
           <button
             className="navbar-toggler"
             type="button"
@@ -55,13 +53,19 @@ const Header = () => {
               >
                 Contract us
               </NavLink>
-              {user.email ? <button className='btn btn-danger' onClick={logOut}>Logout</button> :<NavLink
-                className="text-decoration-none text-white fw-bold mx-3 fs-5"
-                to="/login"
-              >
-                Login
-              </NavLink>}
-              <span className='text-white ms-2'>{user?.displayName}</span>
+              {user.email ? (
+                <button className="btn btn-danger" onClick={logOut}>
+                  Logout
+                </button>
+              ) : (
+                <NavLink
+                  className="text-decoration-none text-white fw-bold mx-3 fs-5"
+                  to="/login"
+                >
+                  Login
+                </NavLink>
+              )}
+              <span className="text-white ms-2">{user?.displayName}</span>
             </Nav>
           </div>
         </div>

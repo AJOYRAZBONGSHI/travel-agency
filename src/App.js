@@ -9,7 +9,6 @@ import Contract from "./components/Contract/Contract";
 import Login from "./components/Login/Login";
 import AuthProvider from "./components/context/AuthProvider";
 import PrivateRoute from "./components/Login/PrivateRoute/PrivateRoute";
-import About from "./components/About/About";
 import ServicesBox from "./components/ServicesPage/ServicesBox/ServicesBox";
 
 function App() {
@@ -33,9 +32,6 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
-            </Route>
-            <Route path="/about">
-              <About></About>
             </Route>
             <Route path="/servicesbox">
               <ServicesBox></ServicesBox>

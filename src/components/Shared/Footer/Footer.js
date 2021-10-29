@@ -7,10 +7,13 @@ const Footer = () => {
     <div>
       <Navbar bg="dark">
         <Container>
-          <span className='text-center'>
-            <img src="https://i.ibb.co/DfXRRy3/pngwing-com.png" alt="" />
+          <span className="text-center">
+            <img
+              src="https://i.ibb.co/xFcq3Pp/Pngtree-an-airplane-airport-pilot-flight-3823863-1.png"
+              alt=""
+            />
             <span className="text-white fs-3 ms-5">
-              Fitness Gym Center @Copyright 2021
+              Travel Agency @Copyright 2021
             </span>
           </span>
         </Container>
