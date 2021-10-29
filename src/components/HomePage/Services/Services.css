@@ -1,0 +1,9 @@
+.card-container {
+  background-color: rgb(102, 104, 104);
+  border-radius: 10px;
+}
+.card-photo {
+  padding: 15px;
+  width: 330px;
+  height: 330px;
+}
