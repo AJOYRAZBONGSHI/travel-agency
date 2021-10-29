@@ -14,9 +14,9 @@ const Home = () => {
   return (
     <div className="container">
       <div className="banner">
-        <div className='d-flex h-100 align-items-center justify-content-center'>
-          <h1 className="text-white inline-block">
-            Welcome to our Fitness Gym Center
+        <div className="d-flex h-100 align-items-center justify-content-center">
+          <h1 className=" inline-block">
+            Welcome to our Travel Agency..
           </h1>
         </div>
       </div>

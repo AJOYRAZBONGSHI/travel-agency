@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fitness-gym-center"
-  }
+    "default": "fitness-gym-center",
+    "etc": "travel-agency-dotcom"
+  },
+  "targets": {}
 }
