@@ -6,7 +6,7 @@ const ServicesBox = () => {
   const [cards, setCard] = useState([]);
 
   useEffect(() => {
-    fetch("data.json")
+    fetch("https://fast-sands-85552.herokuapp.com/places")
       .then((res) => res.json())
       .then((data) => setCard(data));
   }, []);
@@ -16,7 +16,7 @@ const ServicesBox = () => {
       <h1 className="text-center mb-5">This is our Services,,</h1>
       <div className="card-box">
         {cards.map((card) => (
-          <Service key={card.id} card={card}></Service>
+          <Service key={card._id} card={card}></Service>
         ))}
       </div>
     </div>

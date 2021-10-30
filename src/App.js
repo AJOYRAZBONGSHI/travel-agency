@@ -10,6 +10,7 @@ import Login from "./components/Login/Login";
 import AuthProvider from "./components/context/AuthProvider";
 import PrivateRoute from "./components/Login/PrivateRoute/PrivateRoute";
 import ServicesBox from "./components/ServicesPage/ServicesBox/ServicesBox";
+import AddPlace from "./components/Add Place/AddPlace";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             <PrivateRoute exact path="/service/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
+            <Route path="/add-place">
+              <AddPlace></AddPlace>
+            </Route>
             <Route path="/contract">
               <Contract></Contract>
             </Route>

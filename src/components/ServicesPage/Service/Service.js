@@ -10,7 +10,7 @@ const Service = (props) => {
         </div>
         <div>
           <h3>{name}</h3>
-          <h4>Price : {price} $</h4>
+          <h4>Price : {price}</h4>
           <h6>Duration : {duration}</h6>
           <p>{description}</p>
         </div>
