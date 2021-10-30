@@ -4,11 +4,7 @@ import "./Services.css";
 
 const Services = (props) => {
   const { _id, name, description, img } = props.service;
-  const getId =()=>{
-    let id =[];
-    id.push(_id);
-    console.log(id);
-  }
+  
   return (
     <div className="container">
       <div className="card-container">
@@ -17,7 +13,7 @@ const Services = (props) => {
           <h2>{name}</h2>
           <p>{description.slice(0,250)}</p>
           <Link to={`/service/${_id}`}>
-            <button onClick={getId} className="btn btn-danger my-3">Booking</button>
+            <button className="btn btn-danger my-3">Booking</button>
           </Link>
         </div>
       </div>
